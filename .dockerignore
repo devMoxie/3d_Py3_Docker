@@ -1,0 +1,64 @@
+__pycache__
+*.pyc
+**/__pycache__
+**/*.pyc
+*.pyo
+*.pyd
+.Python
+env
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+Dockerfile*
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore Python virtual environments
+venv/
+*.venv/
+
+# Ignore pip package directories
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Python egg metadata, regenerated from source files by 'python setup.py install'
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignore files from the Python package directories
+*.log
+*.pot
+*.pyc
+*.pyo
+*.whl
+
+# Ignore Git files
+.git/
+.gitignore
+
+# If you're using Jupyter notebooks, you might want to ignore these as well
+.ipynb_checkpoints/
+
+# Ignore logs, databases, etc. This is often OS and app-specific, check what should be added here
+*.log
+*.sqlite
